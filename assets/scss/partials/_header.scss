@@ -1,0 +1,53 @@
+#menuButton{
+    cursor: pointer;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    width: 3%;
+    z-index: 2;
+    hr{
+        margin-top: 18%;
+        margin-bottom: 1%;
+        width: 66%;
+    }
+}
+#sideMenu{
+    height: 100%;
+    width: 13%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: white;
+    //display: none;
+    display: flex;
+    opacity: 0;
+    align-items: center;
+    pointer-events: none;
+    #sideMenuVerticalAlign{
+        width: 100%;
+        text-align: center;
+        .sideMenuAction{
+            cursor: pointer;
+            padding: 20px 0;
+            text-align: center;
+        }
+        #backgroundSlider{
+            writing-mode: bt-lr; /* IE */
+            -webkit-appearance: slider-vertical; /* WebKit */
+            width: 8px;
+            height: 30vh;
+            padding-left: 5%;
+            padding-right: 5%;
+            //padding: 0 5px;
+        }
+        #saturationSlider{
+            writing-mode: bt-lr; /* IE */
+            -webkit-appearance: slider-vertical; /* WebKit */
+            width: 8px;
+            height: 30vh;
+            padding-left: 5%;
+            padding-right: 5%;
+            //padding: 0 5px;
+        }
+    }
+}
